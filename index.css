@@ -1,0 +1,45 @@
+.container{
+  text-align: center;
+  margin-top: 20px;
+}
+.makePost {
+  padding: 4px 10px;
+}
+input[type=text]{
+  padding: 4px;
+  margin-right: 5px;
+}
+ul{
+  padding-left: 0;
+}
+li {
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+li > .postTitle {
+  font-family: Helvetica;
+  font-size: 15px;
+  min-width: 140px;
+  display: inline-block;
+  background: #efe2ce;
+  padding: 4px 10px;
+  text-align: left;
+}
+li> .postTitle[contenteditable=true] {
+  border: 1px solid;
+}
+.del {
+  background: #f64747;
+  margin-right: 5px;
+  color: #ffffff;
+  border: 0;
+  padding: 4px 10px;
+  display: inline-block;
+}
+.edit {
+  background: #1888bc;
+  color: #ffffff;
+  border: 0;
+  padding: 4px 10px;
+  display: inline-block;
+}
